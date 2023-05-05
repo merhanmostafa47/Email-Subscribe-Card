@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Subscribe</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <!-- Background container -->
+
+    <div class="flex h-screen items-center justify-center bg-zinc-700">
+      <!-- Card -->
+      <div class="mx-6 overflow-hidden rounded-2xl bg-zinc-800 p-2">
+        <!-- Flex container -->
+        <div class="flex flex-col rounded-s-xl md:flex-row">
+          <!-- Image -->
+          <img
+            src="/images/image.jpg"
+            alt=""
+            class="h-80 rounded-xl object-cover transition duration-200 hover:scale-105 hover:rounded-b-none hover:rounded-t-xl md:h-64 md:rounded-e-none md:rounded-s-xl md:hover:rounded-e-none md:hover:rounded-s-xl"
+          />
+          <!-- Content -->
+          <div class="p-6 md:p-12">
+            <h2
+              class="text-center font-serif text-xl font-medium text-white first-letter:capitalize md:text-start"
+            >
+              get diet and fitness tips in your inbox
+            </h2>
+            <p
+              class="my-4 max-w-xs text-center text-xs leading-5 tracking-wide text-white first-letter:capitalize md:text-start"
+            >
+              eat better and exercise better. Sign up for the Diet&Fitness
+              newsletter.
+            </p>
+            <form
+              class="mt-5 flex flex-col space-y-4 md:flex-row md:space-x-3 md:space-y-0"
+            >
+              <input
+                type="text"
+                placeholder="Enter your email address"
+                class="rounded-sm border border-zinc-600 bg-zinc-800 p-2 px-4 text-center text-white caret-zinc-600 placeholder:text-center placeholder:text-xs focus:outline-none md:text-start md:placeholder:text-start"
+              />
+              <button
+                class="rounded-md bg-lime-500 px-5 py-3 text-sm font-medium text-zinc-800 duration-200 hover:bg-lime-700 hover:text-white"
+              >
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
